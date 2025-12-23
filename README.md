@@ -9,7 +9,7 @@ Desenvolver um componente `Card` altamente customizável e reutilizável que pos
 ### 1. **Estrutura do Card**
 
 O componente deve suportar a seguinte estrutura:
-- **Ícone/Avatar à esquerda** (opcional)
+- **Ícone/Avatar à esquerda ou direita** (opcional)
 - **Título** (obrigatório)
 - **Descrição** (opcional)
 - **Ícone à direita** (opcional)
