@@ -3,6 +3,7 @@
 ## 📋 Objetivo
 
 Desenvolver um componente `Card` altamente customizável e reutilizável que possa ser utilizado em diferentes contextos da aplicação. O componente deve seguir os princípios de design system, ser responsivo e oferecer máxima flexibilidade de customização.
+Use qualquer lingue
 
 ## 🎨 Requisitos Funcionais
 
@@ -120,6 +121,33 @@ Permitir customização da cor de fundo do card através de:
 - Suporte a loading state
 - Suporte a estado de erro
 - Suporte a múltiplos layouts (horizontal, vertical, split)
+
+---
+
+## 📦 Como Entregar o Desafio
+
+### Requisitos de Entrega
+
+1. **Linguagem e Tecnologia**
+   - Você pode utilizar qualquer linguagem de programação e framework de sua preferência
+   - Exemplos: React, Vue, Angular, Svelte, HTML/CSS/JavaScript puro, etc.
+
+2. **Formato de Entrega**
+   - Desenvolva um **site/aplicação web** que demonstre o componente Card funcionando
+   - O site deve estar acessível e funcional 
+
+3. **Demonstração dos Modelos**
+   - O site deve conter uma **galeria de exemplos** mostrando todos os modelos e variações do Card
+   - Demonstre pelo menos:
+     - Todos os tamanhos (xsm, sm, md, lg, xl, xxl)
+     - Todas as variantes (filled, transparent, outlined)
+     - Diferentes combinações de ícones/avatar
+     - Exemplos com customização de cores individuais
+     - Exemplos responsivos
+
+4. **Documentação**
+   - Inclua um README explicando como executar o projeto
+   - Documente as props e como utilizar o componente
 
 ---
 
