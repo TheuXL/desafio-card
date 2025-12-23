@@ -1,5 +1,8 @@
 # 🎯 Desafio: Desenvolvimento de Componente Card Customizável
 
+Esse desafio lhe fornecerá conhecimentos analíticos e desenvolverá suas habilidades de programação e raciocínio 
+Esse desafio lhe ajudará a desenvolver suas habilidades para o mercado de trabalho lhe trazendo uma visão dos desafios diários do mercado de trabalho 
+
 ## 📋 Objetivo
 
 Desenvolver um componente `Card` altamente customizável e reutilizável que possa ser utilizado em diferentes contextos da aplicação. O componente deve seguir os princípios de design system, ser responsivo e oferecer máxima flexibilidade de customização.
