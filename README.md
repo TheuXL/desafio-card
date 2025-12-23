@@ -77,71 +77,6 @@ Permitir customização da cor de fundo do card através de:
 
 ## 📐 Especificações Técnicas
 
-### Props do Componente
-
-```typescript
-interface CardComponentProps {
-  // Conteúdo
-  title: string;
-  description?: string;
-  leftIcon?: React.ReactNode | string; // Ícone ou avatar
-  rightIcon?: React.ReactNode | string;
-  
-  // Cores individuais
-  titleColor?: string;
-  descriptionColor?: string;
-  leftIconColor?: string;
-  rightIconColor?: string;
-  backgroundColor?: string;
-  borderColor?: string; // ⚠️ NÃO ESQUECER!
-  
-  // Tamanhos
-  size?: 'xsm' | 'sm' | 'md' | 'lg' | 'xl' | 'xxl';
-  
-  // Variantes
-  variant?: 'filled' | 'transparent' | 'outlined';
-  borderVariant?: 'bordered' | 'borderless';
-  
-  // Interatividade
-  onPress?: () => void;
-  disabled?: boolean;
-  
-  // Customização adicional
-  className?: string;
-  testID?: string;
-}
-```
-
-### Exemplo de Uso Esperado
-
-```tsx
-// Exemplo básico
-<CardComponent
-  title="Título do Card"
-  description="Descrição do card"
-  size="md"
-  variant="filled"
-/>
-
-// Exemplo com customização completa
-<CardComponent
-  title="Card Customizado"
-  description="Com todas as opções"
-  leftIcon={<Avatar src="..." />}
-  rightIcon={<Icon name="arrow-right" />}
-  titleColor="#FF5733"
-  descriptionColor="#3498DB"
-  leftIconColor="#2ECC71"
-  rightIconColor="#9B59B6"
-  backgroundColor="#F8F9FA"
-  borderColor="#E74C3C" // ⚠️ Lembre-se desta prop!
-  size="lg"
-  variant="outlined"
-  borderVariant="bordered"
-  onPress={() => console.log('Card clicado')}
-/>
-```
-
 ## ✅ Critérios de Aceitação
 
 1. ✅ Componente renderiza corretamente com todos os elementos opcionais
@@ -149,7 +84,7 @@ interface CardComponentProps {
 3. ✅ Todos os tamanhos são implementados e responsivos
 4. ✅ Variantes de estilo funcionam corretamente
 5. ✅ Customização de cor de fundo funciona
-6. ✅ **Customização de cor de borda funciona (requisito crítico)**
+6. ✅ Customização de cores
 7. ✅ Componente é responsivo em diferentes dispositivos
 8. ✅ Componente aceita ícones e avatares
 9. ✅ Componente é acessível (testID, aria-labels quando necessário)
@@ -165,7 +100,7 @@ interface CardComponentProps {
 6. Testar todos os tamanhos (xsm a xxl)
 7. Testar todas as variantes (filled, transparent, outlined)
 8. Testar com e sem borda
-9. **Testar customização de cor de borda em todas as variantes**
+9. Testar customização de cores
 10. Testar customização individual de todas as cores
 11. Testar responsividade em diferentes viewports
 12. Testar estado disabled
@@ -189,6 +124,4 @@ interface CardComponentProps {
 ---
 
 **Boa sorte no desenvolvimento! 🚀**
-
-*Lembre-se: A customização da cor da borda é um requisito crítico que testa sua atenção aos detalhes!*
 
