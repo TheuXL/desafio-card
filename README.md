@@ -12,7 +12,7 @@ O componente deve suportar a seguinte estrutura:
 - **Ícone/Avatar à esquerda ou direita** (opcional)
 - **Título** (obrigatório)
 - **Descrição** (opcional)
-- **Ícone à direita** (opcional)
+- **Ícone/Avatar à direita** (opcional)
 
 ### 2. **Customização de Cores Individuais**
 
