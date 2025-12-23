@@ -84,7 +84,7 @@ Permitir customização da cor de fundo do card através de:
 3. ✅ Todos os tamanhos são implementados e responsivos
 4. ✅ Variantes de estilo funcionam corretamente
 5. ✅ Customização de cor de fundo funciona
-6. ✅ Customização de cores
+6. ✅ Tests unitarios
 7. ✅ Componente é responsivo em diferentes dispositivos
 8. ✅ Componente aceita ícones e avatares
 9. ✅ Componente é acessível (testID, aria-labels quando necessário)
