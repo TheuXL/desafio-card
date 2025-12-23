@@ -67,19 +67,13 @@ Permitir customização da cor de fundo do card através de:
 - Suporte a cores do design system
 - Suporte a cores customizadas (hex, rgb, etc.)
 
-## ⚠️ ATENÇÃO ESPECIAL: Customização de Cor da Borda
+## 💡 Dica de Desenvolvimento
 
-> **🔴 IMPORTANTE: Este é um requisito crítico que muitos desenvolvedores esquecem!**
+> **Este desafio testa sua capacidade de raciocínio e atenção aos detalhes.**
 > 
-> O componente **DEVE** suportar customização da cor da borda de forma independente da cor de fundo e das outras propriedades.
+> Ao desenvolver o componente, considere todos os aspectos de customização visual. Pense em como cada elemento pode ser personalizado de forma independente e como diferentes combinações de propriedades podem interagir entre si.
 > 
-> **Pense bem:** Como você vai implementar isso? 
-> - A cor da borda deve ser configurável via prop
-> - Deve funcionar em conjunto com as variantes (bordered/borderless)
-> - Deve respeitar o design system mas também permitir cores customizadas
-> - Considere casos edge como: borda colorida com fundo transparente, borda customizada com variante outlined, etc.
-> 
-> **Dica:** Não esqueça de testar todos os cenários possíveis de combinação entre cor de borda, cor de fundo e variantes!
+> **Lembre-se:** Um componente bem pensado considera não apenas os casos de uso mais comuns, mas também os cenários edge e as combinações menos óbvias de propriedades. Teste todos os cenários possíveis para garantir que sua solução seja robusta e completa.
 
 ## 📐 Especificações Técnicas
 
